@@ -55,7 +55,8 @@ namespace HRBuddy
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    //Routes to the employees controler as the main url
+                    pattern: "{controller=Employees}/{action=Index}/{id?}");
             });
         }
     }
