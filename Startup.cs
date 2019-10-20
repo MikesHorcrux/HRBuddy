@@ -8,6 +8,8 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using HRBuddy.Data;
+using Microsoft.EntityFrameworkCore;
 
 namespace HRBuddy
 {
@@ -24,6 +26,9 @@ namespace HRBuddy
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+            //employee db
+            services.AddDbContext<MvcEmployeeContext>(options =>
+            options.UseSqlite(Configuration.GetConnectionString("MvcEmployeeContext")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
