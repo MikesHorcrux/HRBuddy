@@ -22,4 +22,7 @@
   <ItemGroup>
     <Folder Include="Data\" />
   </ItemGroup>
+  <ItemGroup>
+    <None Remove="HRBuddy.db" />
+  </ItemGroup>
 </Project>
