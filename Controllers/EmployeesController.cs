@@ -20,8 +20,17 @@ namespace HRBuddy.Controllers
         }
 
         // GET: Employees
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string searchString)
         {
+            //Search function to search names
+
+            var employees = from anEmployee in _context.Employee
+                            select anEmployee;
+            if (!String.IsNullOrEmpty(searchString))
+            {
+                employees = employees.Where(s => s.Name.Contains(searchString));
+            }
+
             return View(await _context.Employee.ToListAsync());
         }
 
