@@ -26,7 +26,7 @@ namespace HRBuddy.Models
                 {
                     Name = "Jim Harper",
                     Address = "123 NOwhere st. CA 92562",
-                    PhoneNumber = 123,
+                    PhoneNumber = "(951) 710-0655",
                     Email = "jimHarper@theoffice.com",
                     FavColor = "Purple",
                     Position = "Sales Rep",
@@ -42,7 +42,7 @@ namespace HRBuddy.Models
                 {
                     Name = "Jim Harper",
                     Address = "123 NOwhere st. CA 92562",
-                    PhoneNumber = 123,
+                    PhoneNumber = "(951) 710-0655",
                     Email = "jimHarper@theoffice.com",
                     FavColor = "Purple",
                     Position = "Sales Rep",

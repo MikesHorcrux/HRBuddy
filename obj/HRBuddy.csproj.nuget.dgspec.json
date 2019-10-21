@@ -14,7 +14,7 @@
         "outputPath": "/Users/mikevanamburg/Projects/HRBuddy/HRBuddy/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/mikevanamburg/.config/NuGet/NuGet.Config"
+          "/Users/mikevanamburg/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
