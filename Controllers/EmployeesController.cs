@@ -149,5 +149,9 @@ namespace HRBuddy.Controllers
         {
             return _context.Employee.Any(e => e.Id == id);
         }
+        public IActionResult Privacy()
+        {
+            return View("Privacy");
+        }
     }
 }

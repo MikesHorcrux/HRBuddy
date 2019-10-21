@@ -1,6 +1,0 @@
-﻿
-
-
-
-Run in terminal to create DB and Views 
-dotnet aspnet-codegenerator controller -name EmployeesController -m Employee -dc MvcEmployeeContext --relativeFolderPath Controllers --useDefaultLayout --referenceScriptLibraries

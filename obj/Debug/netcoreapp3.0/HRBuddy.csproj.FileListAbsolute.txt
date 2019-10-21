@@ -131,8 +131,6 @@
 /Users/mikevanamburg/Projects/HRBuddy/HRBuddy/obj/Debug/netcoreapp3.0/HRBuddy.TagHelpers.input.cache
 /Users/mikevanamburg/Projects/HRBuddy/HRBuddy/obj/Debug/netcoreapp3.0/HRBuddy.TagHelpers.output.cache
 /Users/mikevanamburg/Projects/HRBuddy/HRBuddy/obj/Debug/netcoreapp3.0/HRBuddy.RazorCoreGenerate.cache
-/Users/mikevanamburg/Projects/HRBuddy/HRBuddy/obj/Debug/netcoreapp3.0/Razor/Views/Home/Index.cshtml.g.cs
-/Users/mikevanamburg/Projects/HRBuddy/HRBuddy/obj/Debug/netcoreapp3.0/Razor/Views/Home/Privacy.cshtml.g.cs
 /Users/mikevanamburg/Projects/HRBuddy/HRBuddy/obj/Debug/netcoreapp3.0/Razor/Views/Shared/Error.cshtml.g.cs
 /Users/mikevanamburg/Projects/HRBuddy/HRBuddy/obj/Debug/netcoreapp3.0/Razor/Views/Shared/_Layout.cshtml.g.cs
 /Users/mikevanamburg/Projects/HRBuddy/HRBuddy/obj/Debug/netcoreapp3.0/Razor/Views/Shared/_ValidationScriptsPartial.cshtml.g.cs
@@ -149,3 +147,4 @@
 /Users/mikevanamburg/Projects/HRBuddy/HRBuddy/obj/Debug/netcoreapp3.0/Razor/Views/Employees/Details.cshtml.g.cs
 /Users/mikevanamburg/Projects/HRBuddy/HRBuddy/obj/Debug/netcoreapp3.0/Razor/Views/Employees/Edit.cshtml.g.cs
 /Users/mikevanamburg/Projects/HRBuddy/HRBuddy/obj/Debug/netcoreapp3.0/Razor/Views/Employees/Index.cshtml.g.cs
+/Users/mikevanamburg/Projects/HRBuddy/HRBuddy/obj/Debug/netcoreapp3.0/Razor/Views/Employees/Privacy.cshtml.g.cs
