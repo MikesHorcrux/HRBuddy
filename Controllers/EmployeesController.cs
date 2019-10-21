@@ -28,10 +28,10 @@ namespace HRBuddy.Controllers
                             select anEmployee;
             if (!String.IsNullOrEmpty(searchString))
             {
-                employees = employees.Where(s => s.Name.Contains(searchString));
+                employees = employees.Where(s => s.Name.ToUpper().Contains(searchString.ToUpper()));
             }
 
-            return View(await _context.Employee.ToListAsync());
+            return View(await employees.ToListAsync());
         }
 
         // GET: Employees/Details/5
